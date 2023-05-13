@@ -1,7 +1,6 @@
 package org.parking.entities;
 
-import java.util.Date;
-
+import java.time.LocalDate;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -18,5 +17,7 @@ public class OwnerEntity {
 	@Column
 	public String surname;
 	@Column
-	public Date birthData;
+	public String email;
+	@Column
+	public LocalDate birthData;
 }

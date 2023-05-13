@@ -2,7 +2,9 @@ package org.parking.entities;
 
 import jakarta.persistence.*;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
+@ToString
 @NoArgsConstructor
 @Entity
 @Table(name = "cars")

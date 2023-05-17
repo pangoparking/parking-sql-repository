@@ -20,6 +20,6 @@ public class CarEntity {
 	@Column(unique = true)
 	public long carNumber;
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "owner_id")
+	@JoinColumn(name = "ownerid")
 	public OwnerEntity ownerEntity;
 }

@@ -14,6 +14,6 @@ public class ParkingLotEntity {
 	@Id
 	public long parkingLotId;
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "area_id")
+	@JoinColumn(name = "areaid")
 	public AreaEntity areaEntity;
 }
